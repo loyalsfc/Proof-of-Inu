@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Oxanium', cursive;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000302;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.hero-bg {
+  min-height:100%;
+  background:linear-gradient(1800deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url('/src/assets/hero-bg.webp');
+  background-size:cover;
+}
+
+.hero-section{
+  height: calc(100vh - 150px);
+}
+
+@layer utilities{
+  .nav{
+    @apply mx-4 first:ml-0 last:mr-0 cursor-pointer font-medium hover:text-white/[0.8]
+  }
+  .btn-outline{
+    @apply border px-4 py-2 font-semibold hover:bg-white hover:text-black
+  }
+}
