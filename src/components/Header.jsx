@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 
 function Header() {
   return (
-        <header className='flex items-center justify-between py-6'>
+        <header className='flex items-center justify-between py-6 position-sticky top-0'>
             <div>
                 <img src={logo} alt="" className='h-12' />
             </div>
