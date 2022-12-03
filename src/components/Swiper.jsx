@@ -98,7 +98,7 @@ export default function SwiperItem() {
         </SwiperSlide>
       </Swiper>
     </>
-  );
+  )
 }
 
 function SwiperContent({content, title, img}){
