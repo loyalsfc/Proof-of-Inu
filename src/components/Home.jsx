@@ -3,14 +3,17 @@ import Header from './Header'
 import img from '../assets/new_cryptocurrency.png'
 import About from './About'
 import Utilities from './Utilities'
+import Tokenomics from './Tokenomics'
+import SwiperItem from './Swiper'
+import Counter from './Counter'
 
 
 function Home() {
   return (
         <div>
-            <div className='hero-bg'>
+            <div className='overflow-hidden'>
                 <div className='container mx-auto'>
-                    <div className='h-screen max-h-[625px]'>
+                    <div className='h-screen max-h-[625px] hero-bg'>
                         <Header />
                         <section className='hero-section flex items-center'>
                             <article className='text-center borde w-full'>
@@ -39,6 +42,9 @@ function Home() {
                     </div>
                     <About />
                     <Utilities />
+                    <Tokenomics />
+                    <SwiperItem />
+                    <Counter />
                 </div>
             </div>
         </div>
