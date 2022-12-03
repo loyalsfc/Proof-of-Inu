@@ -8,7 +8,7 @@ function Counter(){
 
     return(
         <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
-            <section className="bg-primary-blue py-8 my-[100px]">
+            <section className="bg-black py-8 my-[100px]">
                 <div className="container mx-auto">
                     <div className="flex flex-col md:flex-row justify-evenly">
                         <CounterItem 

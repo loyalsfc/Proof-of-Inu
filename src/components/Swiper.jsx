@@ -14,7 +14,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 export default function SwiperItem() {
   return (
     <>
-      <h4 className="text-[3rem] leading-[150%] font-bold">Our Features</h4>
+      <h4 className="text-[3rem] leading-[150%] font-bold" id="features">Our Features</h4>
       <Swiper
         navigation={true}
         slidesPerView={3}

@@ -12,7 +12,7 @@ import tokenburn from '../assets/utilities/tokenburn.png'
 
 function Utilities() {
     return (
-        <section className='mb-[100px]'>
+        <section className='mb-[100px]' id='utilities'>
             <h2 className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>UTILITIES</h2>
             <div className='grid grid-cols-3 gap-4'>
                 <UtilitiesList

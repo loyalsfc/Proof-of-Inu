@@ -6,6 +6,10 @@ import Utilities from './Utilities'
 import Tokenomics from './Tokenomics'
 import SwiperItem from './Swiper'
 import Counter from './Counter'
+import Roadmap from './Roadmap'
+import HowToBuy from './HowToBuy'
+import Footer from './Footer'
+import Faq from './FAQ'
 
 
 function Home() {
@@ -45,7 +49,11 @@ function Home() {
                     <Tokenomics />
                     <SwiperItem />
                     <Counter />
+                    <Roadmap />
+                    <HowToBuy />
+                    <Faq />
                 </div>
+                <Footer />
             </div>
         </div>
   )

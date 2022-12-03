@@ -3,7 +3,7 @@ import holder from '../assets/hold.png'
 
 function About() {
   return (
-        <article className='max-w-[1040px] mx-auto mb-[100px]'>
+        <article className='max-w-[1040px] mx-auto mb-[100px]' id='about'>
             <h2 className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>ABOUT</h2>
             <div>
                 <AboutItems
