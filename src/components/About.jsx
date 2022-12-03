@@ -13,6 +13,7 @@ function About() {
                     ERC20 token that was launched to gain support for
                     a meme community of degens."
                     img={holder}
+                    inverse="md:flex-row"
                 />
                 <AboutItems
                     article="Buying Proof of Inu AKA Shib 2.0 helps you to have
@@ -21,7 +22,7 @@ function About() {
                     We are the blockchain of all Inu tokens, the leader of
                     the degens to the moon."
                     img={holder}
-                    inverse={"flex-row-reverse"}
+                    inverse={"md:flex-row-reverse"}
                 />
                 <AboutItems
                     article="We are the blockchain of all Inu tokens. A layer 2
@@ -29,6 +30,7 @@ function About() {
                     We focus on safety of tokens launched on proof of
                     inu and we make sure tokens on our chain are safe."
                     img={holder}
+                    inverse="md:flex-row"
                 />
             </div>
         </article>
@@ -37,8 +39,8 @@ function About() {
 
 function AboutItems({article, img, inverse}){
     return(
-        <div className={'flex items-center justify-between mb-10 '  + inverse}>
-            <p className='text-xl w-1/2 leading-[200%]'>{article}</p>
+        <div className={'flex items-center flex-col-reverse justify-between mb-10 '  + inverse}>
+            <p className='text-xl md:w-1/2 leading-[200%]'>{article}</p>
             <img src={img} alt="image" className='h-[350px]'/>
         </div>
     )

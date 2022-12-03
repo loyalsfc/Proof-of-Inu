@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -10,6 +9,13 @@ import "./styles.css";
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+
+import anonymous from "../assets/features/anonymous.jpg"
+import bestsecurity from "../assets/features/best-security.jpg"
+import concensus from "../assets/features/concensus-algorithm.jpg"
+import immutablity from "../assets/features/data-Immutability.jpg"
+import decentralized from "../assets/features/decentralized-system.jpg"
+import transparency from "../assets/features/transparency.jpg"
 
 export default function SwiperItem() {
   return (
@@ -27,6 +33,7 @@ export default function SwiperItem() {
       >
         <SwiperSlide>
           <SwiperContent 
+            img={bestsecurity}
             title="Best Security"
             content="Blockchain technology is considered more
             secure than its contemporaries because of
@@ -35,6 +42,7 @@ export default function SwiperItem() {
         </SwiperSlide>
         <SwiperSlide>
           <SwiperContent
+              img={decentralized}
               title="Decentralized System"
               content="Decentralised technology gives you the power
               to store your assets in a network without the
@@ -44,6 +52,7 @@ export default function SwiperItem() {
         </SwiperSlide>
         <SwiperSlide>
         <SwiperContent
+            img={immutablity}
             title="Data Immutability"
             content="It ensures that no data is corrupted. How this
             works is that every node on the system has a copy
@@ -57,6 +66,7 @@ export default function SwiperItem() {
         </SwiperSlide>
         <SwiperSlide>
           <SwiperContent
+            img={transparency}
             title="Transparency"
             content="Every transaction, be it tangible or non-
             tangible, can be traced from the start to the finish with blockchain."
@@ -64,6 +74,7 @@ export default function SwiperItem() {
         </SwiperSlide>
         <SwiperSlide>
           <SwiperContent
+            img={concensus}
             title="Consensus Algorithm"
             content="For a transaction to be accepted and
             recorded on the blockchain, all the
@@ -73,6 +84,7 @@ export default function SwiperItem() {
         </SwiperSlide>
         <SwiperSlide>
           <SwiperContent
+            img={anonymous}
             title="Anonymous"
             content="It is true that every transaction is transparent
             and open to the public, but the actual persons are
@@ -89,11 +101,14 @@ export default function SwiperItem() {
   );
 }
 
-function SwiperContent({content, title}){
+function SwiperContent({content, title, img}){
   return(
     <article className="max-w-[455px] text-left">
-      <h3 className="mb-9 text-[2.5rem] ">{title}</h3>
-      <p className="mb-8">{content}</p>
+      <div>
+        <img src={img} alt="" className="mx-auto h-[10px]"/>
+      </div>
+      <h3 className="mb-9 text-[1.5rem] md:text-[2rem] leading-[120%]">{title}</h3>
+      <p className="mb-8 text-sm md:text-base">{content}</p>
     </article>
   )
 }

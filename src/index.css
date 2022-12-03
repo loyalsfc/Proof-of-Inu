@@ -14,7 +14,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #000302;
+  background-color: #080808;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,7 +37,7 @@
 
 @layer utilities{
   .nav{
-    @apply mx-4 first:ml-0 last:mr-0 cursor-pointer font-medium hover:text-white/[0.8]
+    @apply mx-10 md:mx-4 md:first:ml-0 my-4 md:my-0 cursor-pointer font-medium hover:text-white/[0.8]
   }
   .btn-outline{
     @apply border px-4 py-2 font-semibold hover:bg-white hover:text-black
@@ -72,7 +72,7 @@
   margin: calc(var(--i)*3.375rem + var(--j)*1em) auto;
   border: solid calc(var(--i)*0.1875rem) transparent;
   padding: calc(var(--i)*0.75rem + var(--j)*2vw) calc(var(--i)*4rem + var(--j)*2vw);
-  width: calc(var(--i)*42.25rem + var(--j)*100%);
+  max-width: calc(var(--i)*42.25rem + var(--j)*100%);
   border-radius: calc(var(--i)*9.125rem);
   box-shadow: calc(var(--i)*1em + var(--j)*0.375em) calc(var(--i)*1em + var(--j)*0.375em) calc(3*calc(var(--i)*1em + var(--j)*0.375em)) rgba(0, 0, 0, 0.5);
   background: linear-gradient(calc(var(--s)*90deg), #e6e6e6, #ececec) padding-box, linear-gradient(to right bottom, #fff, #c8c8c8) border-box;
@@ -127,9 +127,22 @@
   text-align: center;
   content: "+";
 }
+
+@media (max-width: 640px) {
+  /* .article{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  } */
+}
 .active p {
   padding: 0.75rem 0;
   padding-left: calc(var(--k)*2.5em);
   text-indent: calc(var(--k)*2em);
   color: #000302;
 } 
+
+.social:hover .social-links{
+  display: block;
+}
+.height-0{
+  height: 0 !important;
+}
