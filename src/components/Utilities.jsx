@@ -11,10 +11,23 @@ import liquidity from '../assets/utilities/liquidity.png'
 import tokenburn from '../assets/utilities/tokenburn.png'
 
 function Utilities() {
+    const moveLeft = () => {
+        let containerWidth = document.querySelector('.utility').clientWidth
+        document.querySelector('.utility').scrollLeft += (containerWidth * 0.66 );
+    };
+    const moveRight = () => {
+        document.querySelector('.utility').scrollLeft -= 120;
+    };
+
     return (
         <section className='mb-[100px]' id='utilities'>
-            <h2 data-aos="slide-up" className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>UTILITIES</h2>
-            <div data-aos="zoom-in" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-2'>
+            <h2 data-aos="slide-up" className='text-xl px-2 md:text-[3rem] leading-[120%] mb-4 font-bold flex items-center justify-between'>UTILITIES
+            <div className='flex justify-between'>
+                    <button id='moveleft' onClick={moveRight} className='h-12 w-12 mr-2 rounded-full bg-white/[0.05] text-2xl flex items-center justify-center'><i class="fa-solid fa-caret-left"></i></button>
+                    <button id='moveright' onClick={moveLeft} className='h-12 w-12 rounded-full bg-white/[0.05] text-2xl flex items-center justify-center'><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+            </h2>
+            <div data-aos="zoom-in" className='utility flex flex-nowrap gap-8 p-2 overflow-x-scroll transition-all'>
                 <UtilitiesList
                     img={safety}
                     title="User Safety"
@@ -120,11 +133,11 @@ function Utilities() {
 
 function UtilitiesList({img, title, content}){
     return(
-        <div className='p-3 color-[#d4dce3] grid grid-rows-[auto] gap-2.5 p-4 bg-white/[0.05] backdrop-blur rounded-lg hover:scale-[1.05] transition-all'>
-            <article className='text-center '>
-                <div className='h-[150px] w-[150px] mb-6 rounded-full overflow-hidden mx-auto'>
+        <div className='p-3 w-2/3 md:w-2/5 color-[#d4dce3] grid grid-rows-[auto] gap-2.5 p-4 bg-white/[0.05] backdrop-blur rounded-lg hover:scale-[1.05] transition-all shrink-0'>
+            <article className='text-left '>
+                {/* <div className='h-[150px] w-[150px] mb-6 rounded-full overflow-hidden mx-auto'>
                     <img src={img} alt="" className=' '/>
-                </div>
+                </div> */}
                 <h4 className='text-[22px] mb-2.5 font-semibold text-orange'>{title}</h4>
                 <p className='font-poppin'>{content}</p>
             </article>
