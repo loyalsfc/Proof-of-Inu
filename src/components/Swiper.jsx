@@ -13,7 +13,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import anonymous from "../assets/features/anonymous.jpg"
 import bestsecurity from "../assets/features/best-security.jpg"
 import concensus from "../assets/features/concensus-algorithm.jpg"
-import immutablity from "../assets/features/data-Immutability.jpg"
+import immutablity from "../assets/features/data-immutability.jpg"
 import decentralized from "../assets/features/decentralized-system.jpg"
 import transparency from "../assets/features/transparency.jpg"
 
