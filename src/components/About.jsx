@@ -5,33 +5,27 @@ function About() {
   return (
         <article className='max-w-[1040px] mx-auto mb-[100px]' id='about'>
             <h2 className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>ABOUT</h2>
-            <div>
-                <AboutItems
-                    article="Shiba rose to become the face of the memecoin
+            <div className='font-poppin leading-[150%]'>
+                    <p className='mb-4'>
+                    Shiba rose to become the face of the memecoin
                     world, Proof of Inu is the Shib 2.0
                     Proof of Inu, AKA Shib 2.0 of meme coins is an
                     ERC20 token that was launched to gain support for
-                    a meme community of degens."
-                    img={holder}
-                    inverse="md:flex-row"
-                />
-                <AboutItems
-                    article="Buying Proof of Inu AKA Shib 2.0 helps you to have
+                    a meme community of degens.
+                    </p>
+                    <p className='mb-4'>
+                    Buying Proof of Inu AKA Shib 2.0 helps you to have
                     early access to the ecosystem and our future
                     airdrops.
                     We are the blockchain of all Inu tokens, the leader of
-                    the degens to the moon."
-                    img={holder}
-                    inverse={"md:flex-row-reverse"}
-                />
-                <AboutItems
-                    article="We are the blockchain of all Inu tokens. A layer 2
+                    the degens to the moon.
+                    </p>
+                    <p className='mb-4'>
+                    We are the blockchain of all Inu tokens. A layer 2
                     blockchain for all memecoins.
                     We focus on safety of tokens launched on proof of
-                    inu and we make sure tokens on our chain are safe."
-                    img={holder}
-                    inverse="md:flex-row"
-                />
+                    inu and we make sure tokens on our chain are safe.
+                    </p>
             </div>
         </article>
   )

@@ -42,6 +42,9 @@
   .btn-outline{
     @apply border px-4 py-2 font-semibold hover:bg-white hover:text-black
   }
+  .tokenomics-item{
+   @apply absolute z-10 flex flex-col justify-center initial text-center backdrop-blur py-4 px-8 border border-[#ffffff17] rounded-[35px] bg-transparent 
+  }
 }
 
 .initial{

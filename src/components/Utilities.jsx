@@ -126,7 +126,7 @@ function UtilitiesList({img, title, content}){
                     <img src={img} alt="" className=' '/>
                 </div>
                 <h4 className='text-[22px] mb-2.5 font-semibold'>{title}</h4>
-                <p>{content}</p>
+                <p className='font-poppin'>{content}</p>
             </article>
         </div>
     )

@@ -8,4 +8,10 @@ function Features() {
     )
 }
 
+function FeaturesItem({img, title, text}){
+    <div>
+        
+    </div>
+}
+
 export default Features
