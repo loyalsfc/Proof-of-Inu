@@ -12,7 +12,7 @@ import Footer from './Footer'
 import Faq from './FAQ'
 import herobg from '../assets/utilities/starringnobg.webm'
 import Features from './Features'
-import newBg from '../assets/utilities/usebg.jpg'
+import newBg from '../assets/utilities/usebg.JPG'
 
 
 function Home() {
