@@ -1,5 +1,5 @@
 import React from 'react'
-import safety from '../assets/utilities/safety.png'
+import safety from '../assets/utilities/usersafety.jpeg'
 import doa from '../assets/utilities/doa.png'
 import launching from '../assets/utilities/launching.png'
 import smartcontract from '../assets/utilities/smartcontract.png'
@@ -13,8 +13,8 @@ import tokenburn from '../assets/utilities/tokenburn.png'
 function Utilities() {
     return (
         <section className='mb-[100px]' id='utilities'>
-            <h2 className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>UTILITIES</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <h2 data-aos="slide-up" className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>UTILITIES</h2>
+            <div data-aos="zoom-in" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-2'>
                 <UtilitiesList
                     img={safety}
                     title="User Safety"
@@ -30,7 +30,7 @@ function Utilities() {
                 />
                 <UtilitiesList
                     img={doa}
-                    title="DOA"
+                    title="DAO"
                     content="We are creating a decentralised autonomous
                     organisation for all degens, so that they can
                     be part of the decision making for Proof of
@@ -53,7 +53,7 @@ function Utilities() {
                 />
                 <UtilitiesList
                     img={smartcontract}
-                    title="Deploy SMart Contract"
+                    title="Deploy Smart Contract"
                     content="Proof of Inu is an L2 protocol on
                     Ethereum. As we progress, we will be
                     launching both our testnet and
@@ -120,12 +120,12 @@ function Utilities() {
 
 function UtilitiesList({img, title, content}){
     return(
-        <div className='p-3 color-[#d4dce3] grid grid-rows-[auto] gap-2.5'>
+        <div className='p-3 color-[#d4dce3] grid grid-rows-[auto] gap-2.5 p-4 bg-white/[0.05] backdrop-blur rounded-lg hover:scale-[1.05] transition-all'>
             <article className='text-center '>
-                <div className='h-[190px] w-[190px] mb-6 rounded-full overflow-hidden mx-auto'>
+                <div className='h-[150px] w-[150px] mb-6 rounded-full overflow-hidden mx-auto'>
                     <img src={img} alt="" className=' '/>
                 </div>
-                <h4 className='text-[22px] mb-2.5 font-semibold'>{title}</h4>
+                <h4 className='text-[22px] mb-2.5 font-semibold text-orange'>{title}</h4>
                 <p className='font-poppin'>{content}</p>
             </article>
         </div>

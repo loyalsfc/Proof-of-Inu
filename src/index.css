@@ -7,14 +7,14 @@
   --j: calc(1 - var(--i));
   --k: calc(1 - var(--narr, 0));
 
-  font-family: 'Oxanium', cursive;
+  font-family: 'Zen Dots', cursive;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #080808;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,7 +43,10 @@
     @apply border px-4 py-2 font-semibold hover:bg-white hover:text-black
   }
   .tokenomics-item{
-   @apply absolute z-10 flex flex-col justify-center initial text-center backdrop-blur py-4 px-8 border border-[#ffffff17] rounded-[35px] bg-transparent 
+   @apply absolute z-10 flex flex-col justify-center initial text-center backdrop-blur py-4 px-8 border border-[#ffffff17] rounded-[35px] bg-transparent w-[150px] md:min-w-[200px]
+  }
+  .tokenomics-content{
+    @apply text-[#a2aabb] pt-1 font-poppin text-xs sm:text-base
   }
 }
 
