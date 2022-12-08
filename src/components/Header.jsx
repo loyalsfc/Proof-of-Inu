@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo-1.png'
 
 function Header() {
     function toggleMobileNav(){
@@ -12,7 +12,7 @@ function Header() {
             <i class="fa-solid fa-xmark absolute right-4 top-4 text-white text-xl" onClick={toggleMobileNav}></i>
             <NavItems />
         </div>
-        <header className='flex items-center justify-between py-6 position-sticky top-0'>
+        <header className='flex items-center justify-between py-6 px-6 position-sticky top-0'>
             <div>
                 <img src={logo} alt="" className='h-12' />
             </div>

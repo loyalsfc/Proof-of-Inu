@@ -13,6 +13,7 @@ import Faq from './FAQ'
 import herobg from '../assets/utilities/starringnobg.webm'
 import Features from './Features'
 import newBg from '../assets/utilities/usebg.png'
+import herovideo from '../assets/bg11.webm'
 
 
 function Home() {
@@ -44,7 +45,7 @@ function Home() {
                         <img src={newBg} className="absolute w-full -z-10 left-0 opacity-50" />
                         <article className='p-2 md:pr-4 w-full '>
                             <h2 data-aos="zoom-in" className='text-[3rem] leading-[120%] mb-4'>Introduction</h2>
-                            <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Blockchain is a  type of technology that involves the distribution of a ledger. This ledger contains transactions known as blocks. Theseblocksarelinkedintheformofachain.</p>
+                            <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Blockchain is a  type of technology that involves the distribution of a ledger. This ledger contains transactions known as blocks. These blocks are linked in the form of a chain.</p>
                             <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Hence  “blockchain”  in  such  a  way  that  it  is  updated  in  every transaction. Additionally, because of the cryptography used, it is impossible to alter or modify any records.</p>
                         </article>
                         <div data-aos="fade-out" data-aos-delay="500" className='md:w-1/2 shrink-0 hidden md:block'>

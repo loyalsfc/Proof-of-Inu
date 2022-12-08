@@ -31,15 +31,15 @@ function Utilities() {
                 <UtilitiesList
                     img={safety}
                     title="User Safety"
-                    content="The NFT space is perverted with
+                    content='The NFT space is perverted with
                     several cases of rugs. Thus, making
                     it unsafe for mass participation.
-                    As a result, we are building Proof of
-                    Inu to shield the degens from the
+                    Therefore, we are building "Proof of
+                    Inu" to shield the degens from the
                     unfortunate incidences of rugs and
                     create a safer environment.
                     We focus on safety of tokens launched on
-                    proof of inu and we make"
+                    "Proof of Inu"'
                 />
                 <UtilitiesList
                     img={doa}
