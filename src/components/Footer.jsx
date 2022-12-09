@@ -5,7 +5,10 @@ function Footer() {
     return (
         <footer className='border-t py-4 text-center md:text-left'>
             <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start  gap-4">
-                <img src={logo} alt="Logo" className='w-[50px]'/>
+                <div className='flex items-center'>
+                    <img src={logo} alt="" className='h-12 mr-4' />
+                    <span className='text-lg'>Proof of <span class="text-[#f79122]">INU</span></span>
+                </div>
                 <div className='md:ml-auto mr-4'>
                     <h4 className='font-semibold '>About</h4>
                     <ul className='text-sm font-poppin'>
