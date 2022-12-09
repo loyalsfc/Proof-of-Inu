@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo-1.png'
 
 function Footer() {
     return (
         <footer className='border-t py-4 text-center md:text-left'>
             <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start  gap-4">
-                <img src={logo} alt="Logo" className='w-[182px]'/>
-                <div className='md:ml-auto'>
+                <img src={logo} alt="Logo" className='w-[50px]'/>
+                <div className='md:ml-auto mr-4'>
                     <h4 className='font-semibold '>About</h4>
                     <ul className='text-sm font-poppin'>
                         <a href="#utilities" className='my-2'><li>Utilities</li></a>
@@ -19,10 +19,10 @@ function Footer() {
                 <div className='mb-4 md:mb-0'>
                     <h4 className='font-semibold '>Social</h4>
                     <ul className='text-sm font-poppin'>
-                        <a href="https://twitter.com/proofofinu?s=11&t=eskbO7CWl9mEzlalNc06zg" className='my-2'><li>Twitter <i className="fa-brands fa-twitter"></i></li></a>
-                        <a href='https://t.me/proofofinu' className='my-2'><li>Telegram <i className="fa-brands fa-telegram"></i></li></a>
-                        <a href='https://medium.com/@proofofinu' className='my-2'><li>Medium <i class="fa-brands fa-medium"></i></li></a>
-                        <a href='https://github.com/Proof-of-Inu' className='my-2'><li>GitHub <i class="fa-brands fa-github"></i></li></a>
+                        <a href="https://twitter.com/proofofinuerc"  target="_blank" className='my-2'><li>Twitter <i className="fa-brands fa-twitter"></i></li></a>
+                        <a href='https://t.me/proofofinu' target="_blank" className='my-2'><li>Telegram <i className="fa-brands fa-telegram"></i></li></a>
+                        <a href='https://medium.com/@proofofinu' target="_blank" className='my-2'><li>Medium <i class="fa-brands fa-medium"></i></li></a>
+                        <a href='https://github.com/Proof-of-Inu' target="_blank" className='my-2'><li>GitHub <i class="fa-brands fa-github"></i></li></a>
                     </ul>
                 </div>
             </div>

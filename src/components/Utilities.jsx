@@ -44,13 +44,13 @@ function Utilities() {
                 <UtilitiesList
                     img={doa}
                     title="DAO"
-                    content="We are creating a decentralised autonomous
+                    content='We are creating a decentralised autonomous
                     organisation for all degens, so that they can
-                    be part of the decision making for Proof of
-                    Inus layer2 blockchain. DAO members can get whitelisted in
+                    be part of the decision making for "Proof of
+                    Inus" layer 2 blockchain. DAO members can get whitelisted in
                     our coming projects. Encouraging
                     the community to vote and take part
-                    in project decision-making."
+                    in project decision-making.'
                 />
                 <UtilitiesList
                     img={launching}
@@ -67,13 +67,13 @@ function Utilities() {
                 <UtilitiesList
                     img={smartcontract}
                     title="Deploy Smart Contract"
-                    content="Proof of Inu is an L2 protocol on
+                    content='"Proof of Inu" is an L2 protocol on
                     Ethereum. As we progress, we will be
                     launching both our testnet and
                     mainnet. We are enhancing active
-                    developers' participation and
+                    developers participation and
                     building innovative projects in our
-                    ecosystem."
+                    ecosystem.'
                 />
                 <UtilitiesList
                     img={nft}
@@ -92,8 +92,7 @@ function Utilities() {
                     img={staking}
                     title="Staking"
                     content="Staking $Proof of inu token will
-                    generate passive income. Drake's
-                    help the network to be secured."
+                    generate passive income."
                 />
                 <UtilitiesList
                     img={wallet}
@@ -124,7 +123,7 @@ function Utilities() {
                     img={tokenburn}
                     title="Token Burn"
                     content="There is going to be a regular burning
-                    of tokens to make it more scares."
+                    of tokens to make it more scarce"
                 />
             </div>
         </section>
