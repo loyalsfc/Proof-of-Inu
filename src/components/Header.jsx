@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo-1.png'
 
 function Header() {
     function toggleMobileNav(){
@@ -12,9 +12,10 @@ function Header() {
             <i class="fa-solid fa-xmark absolute right-4 top-4 text-white text-xl" onClick={toggleMobileNav}></i>
             <NavItems />
         </div>
-        <header className='flex items-center justify-between py-6 position-sticky top-0'>
-            <div>
-                <img src={logo} alt="" className='h-12' />
+        <header className='flex items-center justify-between py-6 px-6 position-sticky top-0'>
+            <div className='flex items-center'>
+                <img src={logo} alt="" className='h-12 mr-4' />
+                <span className='text-lg'>Proof of <span class="text-[#f79122]">INU</span></span>
             </div>
             <nav className='hidden lg:block'>
                 <ul className='flex md:items-center flex-col md:flex-row'>
@@ -27,7 +28,7 @@ function Header() {
                     <a href='#faq' className='nav'><li>FAQ</li></a>
                     <li className="social nav relative">Social  <i className="fa-solid fa-caret-down"></i>
                         <ul className='absolute hidden md:pt-2  social-links'>
-                            <li className='my-2 first:mt-0 last:mb-0 border-b'><a href="https://twitter.com/proofofinu?s=11&t=eskbO7CWl9mEzlalNc06zg" className='my-2'>Twitter</a></li>
+                            <li className='my-2 first:mt-0 last:mb-0 border-b'><a href="https://twitter.com/proofofinuerc" className='my-2'>Twitter</a></li>
                             <li className='my-2 first:mt-0 last:mb-0 border-b'><a href='https://t.me/proofofinu'>Telegram</a></li>
                             <li className='my-2 first:mt-0 last:mb-0 border-b'><a href='https://medium.com/@proofofinu'>Medium</a></li>
                             <li className='my-2 first:mt-0 last:mb-0 border-b'><a href='https://github.com/Proof-of-Inu'>Github</a></li>

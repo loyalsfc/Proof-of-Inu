@@ -6,8 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        orange: "#ff9f16"
+      },
       fontFamily: {
-        poppin: ['Poppins', 'sans-serif'],
+        poppin: [ 'Montserrat Alternates', 'sans-serif'],
         
       },
     },
