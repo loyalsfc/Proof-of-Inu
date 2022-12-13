@@ -13,8 +13,8 @@ function HowToBuy() {
                     </p>
                 </article>
                 <article data-aos="zoom-out" data-aos-delay="300" className='mb-8'>
-                    <h3 className='text-2xl font-semibold my-4 text-orange'>Step Two - Connect to Uniswap</h3>
-                    <p className='font-poppin'>First click on the Swap Tokens button in the bottom right of your screen. In the top right, press connect wallet.
+                    <h3 className='text-2xl font-semibold my-4 text-orange break-words'>Step Two - Connect to Uniswap</h3>
+                    <p className='font-poppin word-wrapping'>First click on the Swap Tokens button in the bottom right of your screen. In the top right, press connect wallet.
                     Ensure you are swapping from ETH to $SHIB 2.0, if it doesn't autofill, paste the contract: 0xA56B5C6162c7311D86d5AbC66E4b29a283392117</p>
                 </article>
                 <article data-aos="zoom-out" data-aos-delay="600" className=''>

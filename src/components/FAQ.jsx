@@ -9,35 +9,28 @@ function Faq(){
                         <h3 className='text-2xl md:text-[3rem] leading-[120%] mb-4 font-bold text-center'>Frequently Ask Question</h3>
                             <p className="text-lg">Get more information on how our proof of Inu, and get answers to your questions </p>
                         </div>
-                        {/* <div className="h-56">
-                            <img src={image} className="h-full hidden lg:block" />
-                        </div> */}
                     </div>
-                    <div data-aos="slide-up" className="w-full mx-2 md:w-2/3 md:mx-auto mt-8 bg-primary-blue p-8 rounded-3xl">
+                    <div data-aos="slide-up" className="w-full mx-2 md:w-2/3 md:mx-auto mt-8 bg-primary-blue py-8 rounded-3xl">
                         <Accordion
                             id="0"
-                            title="Lorem Ipsum Atet?"
-                            content="Aenean sed mattis odio, nec posuere sem. Pellentesque facilisis egestas elit, id pulvinar leo ullamcorper in. Mauris placerat justo ac mollis ultrices"
+                            title="What is Proof of Inu?"
+                            content="Proof of Inu is a layer 2 blockchain for meme tokens, which focuses on safety of tokens launched on its chain. Please read the whitepaper (link) for more info."
                         />
                         <Accordion
                             id="1" 
-                            title="Lorem Ipsum Atet?"
-                            content="Aenean sed mattis odio, nec posuere sem. Pellentesque facilisis egestas elit, id pulvinar leo ullamcorper in. Mauris placerat justo ac mollis ultrices"
+                            title="What are benefits of holding Proof of Inu tokens?"
+                            content="Holding Proof of Inu tokens  helps  investors to have early access to the ecosystem and future airdrops. Also, staking Proof of Inu tokens will generate passive income"
                         />
                         <Accordion
                             id="2" 
-                            title="Lorem Ipsum Atet?"
-                            content="Aenean sed mattis odio, nec posuere sem. Pellentesque facilisis egestas elit, id pulvinar leo ullamcorper in. Mauris placerat justo ac mollis ultrices"
+                            title="How to contact team members for marketing?"
+                            content="Please send an email for marketing and proposals: admin@proofofinu.com
+                            You can also contact us through our official Twitter and Telegram pages https://t.me/proofofinu"
                         />
                         <Accordion 
                             id="3"
-                            title="Lorem Ipsum Atet?"
-                            content="Aenean sed mattis odio, nec posuere sem. Pellentesque facilisis egestas elit, id pulvinar leo ullamcorper in. Mauris placerat justo ac mollis ultrices"
-                        />
-                        <Accordion 
-                            id="4"
-                            title="Lorem Ipsum Atet?"
-                            content="Aenean sed mattis odio, nec posuere sem. Pellentesque facilisis egestas elit, id pulvinar leo ullamcorper in. Mauris placerat justo ac mollis ultrices"
+                            title="What are the buy and sell taxes?"
+                            content="The buying tax is 4%, while the selling tax is 6%."
                         />
                     </div>
                 </div>

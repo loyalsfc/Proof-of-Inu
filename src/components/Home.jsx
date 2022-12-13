@@ -23,7 +23,7 @@ function Home() {
                     <div className='absolute top-0 left-0 w-full -z-10 h-full overflow-hidden'>
                         <video src={herovideo} autoPlay muted loop className='h-full md:w-full'></video>
                     </div>
-                    <div className='container mx-auto relative'>
+                    <div className='container mx-auto relative px-4'>
                         <Header />
                         <section className='hero-section flex items-center'>
                             <article className='text-center w-full'>
@@ -42,14 +42,14 @@ function Home() {
                     </div>
                 </div>
                 <div className='relative'>
-                    <div className='container mx-auto '>
+                    <div className='container mx-auto px-4'>
                         <div className=' flex items-center pt-10 flex-col md:flex-row justify-between max-w-[1040px] mx-auto mb-[100px]'>
                             <img src={newBg} className="absolute w-full -z-20 left-0 opacity-[0.2] rotate-180" />
                             <article className='p-2 md:pr-4 w-full '>
                                 <h2 data-aos="zoom-in" className='text-[3rem] leading-[120%] mb-4 text-center'>Introduction</h2>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Blockchain is a  type of technology that involves the distribution of a ledger. This ledger contains transactions known as blocks. These blocks are linked in the form of a chain.</p>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Hence  “blockchain”  in  such  a  way  that  it  is  updated  in  every transaction. Additionally, because of the cryptography used, it is impossible to alter or modify any records.</p>
-                                <p data-aos="slide-up" className="mb-4 text lg font-poppin">The native token of the Proof of Inu blockchain is Proof of Inu. Proof of Inu focus on safety of tokens launched on Proof of Inu and  make sure tokens on the chain are safe.</p>
+                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Blockchain is a type of technology that involves the distribution of a ledger. This ledger contains transactions known as blocks. These blocks are linked in the form of a chain.</p>
+                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Hence “blockchain” in such a way that it is updated in every transaction. Additionally, because of the cryptography used, it is impossible to alter or modify any records.</p>
+                                <p data-aos="slide-up" className="mb-4 text lg font-poppin">The native token of the Proof of Inu blockchain is Proof of Inu. Proof of Inu focuses on safety of tokens launched on Proof of Inu.</p>
                             </article>
                             <div data-aos="fade-out" data-aos-delay="500" className='md:w-1/2 shrink-0 hidden'>
                                 <video src={herobg} muted autoPlay loop className='w-full hidden'></video>

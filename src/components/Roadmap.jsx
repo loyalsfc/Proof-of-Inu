@@ -24,12 +24,11 @@ function Roadmap() {
                         <h4 className='text-2xl mb-3 '>Phase 1: Launch</h4>
                         <ul className='list-disc px-4'>
                             <li>INUSCAN</li>
-                            <li>5,000 HOLDERS</li>
-                            <li>CEX LISTINGS</li>
-                            <li>PRESS RELEASES</li>
-                            <li>25,000 TELEGRAM MEMBERS</li>
-                            <li>INUSWAP</li>
-                            <li>GIVEWAYS</li>
+                            <li>PRESS RELEASES </li>
+                            <li>HOST COMMUNITY CONTESTS </li>
+                            <li>PAID AND UNPAID MARKETING </li>
+                            <li>TESTNET RELEASE</li>
+                            <li>CG & CMC LISTING</li>
                         </ul>
                     </div>
                 </div>
@@ -38,12 +37,12 @@ function Roadmap() {
                     <div className='opacity-0 transition-all'>
                         <h4 className='text-2xl mb-3 '>Phase 2: Growth</h4>
                         <ul className='list-disc px-4'>
-                            <li>EXPAND BLOCKCHAIN</li>
-                            <li>DEVELOPMENT TEAM.</li>
-                            <li>DEXT LISTING.</li>
-                            <li>2000 HOLDERS</li>
-                            <li>EXPAND MARKETING TEAMS.</li>
-                            <li>ADDITIONAL PARTNERSHIP</li>
+                            <li>INUSWAP</li>
+                            <li>MAINNET RELEASE</li>
+                            <li>EXPAND THE CORE TEAM</li>
+                            <li>MARKETING CAMPAIGNS </li>
+                            <li>CEX LISTINGS</li>
+                            <li>PARTNERSHIPS WITH CRYPTO PROJECTS </li>
                         </ul>
                     </div>
                 </div>
@@ -52,13 +51,12 @@ function Roadmap() {
                     <div className='opacity-0 transition-all'>
                         <h4 className='text-2xl mb-3 '>Phase 3: Stable</h4>
                         <ul className='list-disc px-4'>
-                            <li>INUSCAN</li>
-                            <li>5,000 HOLDERS</li>
-                            <li>CEX LISTINGS</li>
-                            <li>PRESS RELEASES</li>
-                            <li>25,000 TELEGRAM MEMBERS</li>
-                            <li>INUSWAP</li>
-                            <li>GIVEWAYS</li>
+                            <li>TOP TIER 1 & 2 CEX LISTINGS</li>
+                            <li>PR AND INFLUENCER MARKETING</li>
+                            <li>LAUNCH STAKING PLATFORM </li>
+                            <li>FURTHER COLLABORATION WITH CRYPTO PROJECTS </li>
+                            <li>GROW THE CORE TEAM AND LOCAL COMMUNITIES </li>
+                            <li>COMMUNITY AND TRADING CONTESTS </li>
                         </ul>
                     </div>
                 </div>
@@ -67,11 +65,12 @@ function Roadmap() {
                     <div className='opacity-0 transition-all'>
                         <h4 className='text-2xl mb-3 '>Phase 4: Expansion</h4>
                         <ul className='list-disc px-4'>
-                            <li>EXPAND BLOCKCHAIN DEVELOPMENT TEAM.</li>
-                            <li>DEXT LISTING.</li>
-                            <li>2000 HOLDERS</li>
-                            <li>EXPAND MARKETING TEAMS.</li>
-                            <li>ADDITIONAL PARTNERSHIP</li>
+                            <li>LAUNCH DAO FOR DEGENS</li>
+                            <li>LAUNCH OUR OWN DECENTRALIZED EXCHANGE (DEX)</li>
+                            <li>LAUNCH THE ON-CUSTODIAL – SHIB 2.0 CRYPTO WALLET</li>
+                            <li>CREATE AN NFT MARKETPLACE</li>
+                            <li>TOP TIER 1 CEX LISTINGS</li>
+                            <li>MASSIVE MARKETING CAMPAIGNS AND REWARD HOLDERS</li>
                         </ul>
                     </div>
                 </div>
