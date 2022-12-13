@@ -7,14 +7,14 @@ function Faq(){
                     <div className="flex items-center justify-center">
                         <div data-aos="zoom-in">
                         <h3 className='text-2xl md:text-[3rem] leading-[120%] mb-4 font-bold text-center'>Frequently Ask Question</h3>
-                            <p className="text-lg">Get more information on how our proof of Inu, and get answers to your questions </p>
+                            <p className="text-lg">Get more information on proof of Inu, and get answers to your questions </p>
                         </div>
                     </div>
                     <div data-aos="slide-up" className="w-full mx-2 md:w-2/3 md:mx-auto mt-8 bg-primary-blue py-8 rounded-3xl">
-                        <Accordion
+                        <Accordion2
                             id="0"
                             title="What is Proof of Inu?"
-                            content="Proof of Inu is a layer 2 blockchain for meme tokens, which focuses on safety of tokens launched on its chain. Please read the whitepaper (link) for more info."
+                            content=""
                         />
                         <Accordion
                             id="1" 
@@ -52,7 +52,27 @@ function Accordion({title, content, id}){
                 <i className="fa-solid fa-caret-down mr-8 transition-transform"></i> <span onClick={handleClick} data-id={`dropdown-${id}`} className="md:text-xl font-semibold">{title}</span>
             </button>
             <div className="bg-[#1A1919] overflow-hidden hidden border-b-2">
-                <p className="p-6 leading-loose transition-transform scale-0">{content}</p>
+                <p className="p-6 leading-loose transition-transform scale-0 font-poppin">{content}</p>
+            </div>
+        </div>
+    )
+}
+
+function Accordion2({title, id}){
+    function handleClick(e){
+        const selectedId = e.target.dataset.id;
+        setTimeout(()=>{document.querySelector(`#${selectedId} p`).classList.toggle('scale-0');}, 100)
+        document.querySelector(`#${selectedId} div`).classList.toggle('hidden');
+        document.querySelector(`#${selectedId} i`).classList.toggle('rotate-180')
+    }
+    return(
+        <div className="accordion" id={`dropdown-${id}`}>
+            <button className="text-white text-left block w-full px-4 py-4 border-b-2">
+                <i className="fa-solid fa-caret-down mr-8 transition-transform"></i> <span onClick={handleClick} data-id={`dropdown-${id}`} className="md:text-xl font-semibold">{title}</span>
+            </button>
+            <div className="bg-[#1A1919] overflow-hidden hidden border-b-2">
+                <p className="p-6 leading-loose transition-transform scale-0 font-poppin">Proof of Inu is a layer 2 blockchain for meme tokens, which focuses on safety of tokens launched on its chain. Please read the whitepaper <a className="text-orange" target="_blank" href="https://drive.google.com/file/d/1CeWa1pdFfjxGE_JTze0PDCKHTbjxhjuf/view">
+Whitepaper link </a> for more info.</p>
             </div>
         </div>
     )

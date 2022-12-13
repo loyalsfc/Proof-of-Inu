@@ -15,11 +15,11 @@ function Tokenomics() {
             <div className='relative lg:w-1/2' data-aos="flip-up">
                 <img src={bg} className="w-3/4 mx-auto" alt="" />
                 <div className='tokenomics-item right-2 md:right-4 top-10'>
-                    <h3 className='text-xs sm:text-[1.5rem] font-semibold text-white leading-[130%]'>100 Billion </h3>
+                    <h3 className='text-xs sm:text-[1.5rem] font-semibold text-white leading-[130%]'>1 Trillion </h3>
                     <p className='tokenomics-content'>Initial Supply</p>
                 </div>
                 <div className='tokenomics-item left-2 md:left-4 top-10'>
-                    <h3 className='text-xs sm:text-[1.5rem] font-bold text-white leading-[130%]'>100 Billion </h3>
+                    <h3 className='text-xs sm:text-[1.5rem] font-bold text-white leading-[130%]'>1 Trillion </h3>
                     <p className='tokenomics-content'>Maximum Supply </p>
                 </div>
                     <div className='tokenomics-item left-2 md:left-4 bottom-10'>
