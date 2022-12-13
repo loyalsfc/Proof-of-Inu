@@ -18,7 +18,7 @@ function HowToBuy() {
                     Ensure you are swapping from ETH to $SHIB 2.0, if it doesn't autofill, paste the contract: 0xA56B5C6162c7311D86d5AbC66E4b29a283392117</p>
                 </article>
                 <article data-aos="zoom-out" data-aos-delay="600" className=''>
-                    <h3 className='text-2xl font-semibold my-4 text-orange'>Step Three - Swap ETH to $SHIP 2.0</h3>
+                    <h3 className='text-2xl font-semibold my-4 text-orange'>Step Three - Swap ETH to $SHIB 2.0</h3>
                     <p className='font-poppin'>Click on the gear in the top right of the Swap box, and set slippage.
                         Simply click swap, confirm on your wallet and you now have $SHIB 2.0!.</p>
                 </article>
