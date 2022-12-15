@@ -71,7 +71,7 @@ function Accordion2({title, id}){
                 <i className="fa-solid fa-caret-down mr-8 transition-transform"></i> <span onClick={handleClick} data-id={`dropdown-${id}`} className="md:text-xl font-semibold">{title}</span>
             </button>
             <div className="bg-[#1A1919] overflow-hidden hidden border-b-2">
-                <p className="p-6 leading-loose transition-transform scale-0 font-poppin">Proof of Inu is a layer 2 blockchain for meme tokens, which focuses on safety of tokens launched on its chain. Please read the whitepaper <a className="text-orange" target="_blank" href="https://drive.google.com/file/d/1CeWa1pdFfjxGE_JTze0PDCKHTbjxhjuf/view">
+                <p className="p-6 leading-loose transition-transform scale-0 font-poppin">Proof of Inu is a layer 2 blockchain for meme tokens, which focuses on safety of tokens launched on its chain. Please read the whitepaper <a className="text-orange" target="_blank" href="https://drive.google.com/file/d/158f-hmuHck7grEWhNZrW1hgcpCd_QY7d/view?usp=sharing">
 Whitepaper link </a> for more info.</p>
             </div>
         </div>
