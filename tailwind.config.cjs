@@ -7,7 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        orange: "#ff9f16"
+        orange: "#00FFA7",
+        "main-dark": "#111111",
+        "blue": "#44B1FF"
+      },
+      backgroundImage : {
+        "radial" : "radial-gradient(rgba(0, 255, 167, 1), rgba(68, 177, 255, 1))",
+        "radial-cover" : "radial-gradient(rgba(0, 255, 167, 1), rgba(10, 244, 179, 1), rgba(35, 215, 212, 1), rgba(68, 177, 255, 1))",
       },
       fontFamily: {
         poppin: [ 'Montserrat Alternates', 'sans-serif'],

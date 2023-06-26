@@ -16,6 +16,8 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #000000;
 
+  scroll-behavior: smooth;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -82,4 +84,11 @@ video{
 
 .word-wrapping{
   word-wrap: break-word;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, rgba(68, 177, 255, 1), rgba(0, 255, 167, 1));
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
 }

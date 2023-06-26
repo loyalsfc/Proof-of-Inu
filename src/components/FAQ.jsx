@@ -6,31 +6,30 @@ function Faq(){
                 <div className="container mx-auto mb-8">
                     <div className="flex items-center justify-center">
                         <div data-aos="zoom-in">
-                        <h3 className='text-2xl md:text-[3rem] leading-[120%] mb-4 font-bold text-center'>Frequently Ask Question</h3>
+                        <h3 className='text-2xl md:text-[3rem] leading-[120%] mb-4 font-bold text-center text-orange'>Frequently Ask Question</h3>
                             <p className="text-lg">Get more information on proof of Inu, and get answers to your questions </p>
                         </div>
                     </div>
                     <div data-aos="slide-up" className="w-full mx-2 md:w-2/3 md:mx-auto mt-8 bg-primary-blue py-8 rounded-3xl">
-                        <Accordion2
+                        <Accordion
                             id="0"
-                            title="What is Proof of Inu?"
-                            content=""
+                            title="Lorem Ipsum Bala dolo me na"
+                            content="ulla cursus pretium libero, sed maximus nunc commodo rutrum. Curabitur eu vulputate ante, sit amet finibus sapien. Integer pellentesque augue metus, vitae pellentesque ligula elementum ut"
                         />
                         <Accordion
                             id="1" 
-                            title="What are benefits of holding Proof of Inu tokens?"
-                            content="Holding Proof of Inu tokens  helps  investors to have early access to the ecosystem and future airdrops. Also, staking Proof of Inu tokens will generate passive income"
+                            title="Lorem Ipsum Bala dolo me na"
+                            content="ulla cursus pretium libero, sed maximus nunc commodo rutrum. Curabitur eu vulputate ante, sit amet finibus sapien. Integer pellentesque augue "
                         />
                         <Accordion
                             id="2" 
-                            title="How to contact team members for marketing?"
-                            content="Please send an email for marketing and proposals: admin@proofofinu.com
-                            You can also contact us through our official Twitter and Telegram pages https://t.me/proofofinu"
+                            title="Lorem Ipsum Bala dolo me na"
+                            content="ulla cursus pretium libero, sed maximus nunc commodo rutrum. Curabitur eu vulputate ante, sit amet finibus sapien. Integer pellentesque augue metus, vitae pellentesque ligula elementum ut"
                         />
                         <Accordion 
                             id="3"
-                            title="What are the buy and sell taxes?"
-                            content="The buying tax is 4%, while the selling tax is 6%."
+                            title="Lorem Ipsum Bala dolo me na"
+                            content="ulla cursus pretium libero, sed maximus nunc commodo rutrum. Curabitur eu vulputate ante, sit amet finibus sapien. Integer pellentesque augue metus, vitae pellentesque ligula elementum ut."
                         />
                     </div>
                 </div>

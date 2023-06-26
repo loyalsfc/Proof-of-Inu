@@ -1,38 +1,71 @@
 import React from 'react'
+import { FaChartLine, FaHandHoldingUsd, FaRobot, FaTint, FaUsers } from "react-icons/fa";
+
 import bg from '../assets/tokenomics.png'
 
 function Tokenomics() {
   return (
-        <section className='flex flex-col lg:flex-row relative mb-[100px]' id='tokenomics'>
+        <section className='relative mb-[100px]' id='tokenomics'>
             <div className="bg-[#FDA005] h-[682px] w-[682px] hidden rounded-full absolute blur-[400px] -right-[341px] -top-[100px]"></div>
-            <div className='max-w-[565px] p-2 mb-8 md:mb-0'>
-                <h3 data-aos="slide-down" className='text-[2rem] md:text-[3rem] leading-[120%] font-bold'>Our unique Tokenomics are not to be overlooked</h3>
-                <p data-aos="zoom-in" className='py-4 text-lg leading-[150%] text-[#a2aabb] font-poppin'>$POI is available for trading on Uniswap, one of the largest decentralized exchanges in the world, with more listings to follow in the future as we expand.</p>
-                <a data-aos="fade-in" target="_blank" href="https://drive.google.com/file/d/158f-hmuHck7grEWhNZrW1hgcpCd_QY7d/view?usp=sharing">
-                <button className='py-3 px-12 border-2 border-orange font-semibold text-lg hover:bg-orange hover:text-black rounded-lg'>White Paper <i className="fa-solid fa-arrow-right-long ml-2"></i></button>
-                </a>
-            </div>
-            <div className='relative lg:w-1/2' data-aos="flip-up">
-                <img src={bg} className="w-3/4 mx-auto" alt="" />
-                <div className='tokenomics-item right-2 md:right-4 top-10'>
-                    <h3 className='text-xs sm:text-[1.5rem] font-semibold text-white leading-[130%]'>1 Trillion </h3>
-                    <p className='tokenomics-content'>Initial Supply</p>
-                </div>
-                <div className='tokenomics-item left-2 md:left-4 top-10'>
-                    <h3 className='text-xs sm:text-[1.5rem] font-bold text-white leading-[130%]'>1 Trillion </h3>
-                    <p className='tokenomics-content'>Maximum Supply </p>
-                </div>
-                    <div className='tokenomics-item left-2 md:left-4 bottom-10'>
-                        <h3 className='text-xs sm:text-[1.5rem] font-bold text-white leading-[130%]'>4%</h3>
-                        <p className='tokenomics-content'>Buy Tax</p>
-                    </div>
-                    <div className='tokenomics-item right-4 bottom-10'>
-                        <h3 className='text-xs sm:text-[1.5rem] font-bold text-white leading-[130%]'>6%</h3>
-                        <p className='tokenomics-content'>Sell Tax</p>
-                    </div>
-            </div>
+            <h2 className='text-4xl uppercase text-center font-medium mb-8 text-orange'>Tokenomics</h2>
+            <article data-aos="fade-up" data-aos-duration="1200" className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-12'>
+                <Card 
+                    Icon={FaTint}
+                    title="Initial Liquidity Pool"
+                    percentage = {30}
+                    text= "30,000,000,000"
+                />
+                <Card
+                    Icon={FaRobot}
+                    title = "Trade Bot Company Treasury"
+                    percentage = {15}
+                    text = "15,000,000,000"
+                />
+                <Card
+                    Icon={FaUsers}
+                    title = "Community Incentives and Rewards"
+                    percentage = {20}
+                    text = "20,000,000,000"
+                />
+                <Card
+                    Icon={FaHandHoldingUsd}
+                    title= "Development and Partnerships"
+                    percentage = {15}
+                    text = "15,000,000,000"
+                />
+                <Card
+                    Icon={FaChartLine}
+                    title = "Marketing and Promotion"
+                    percentage = {10}
+                    text = "10,000,000,000"
+                />
+                <Card
+                    Icon={FaUsers}
+                    title = "Team and Advisors"
+                    percentage = {5}
+                    text = "5,000,000,000"
+                />
+                    </article>
         </section>
   )
+}
+
+function Card({Icon, title, text, percentage}){
+    return(
+        <div className='relative'>
+            <div className='-z-[1] absolute h-full w-full bg-radial rounded-[11px] blur-sm top-0 left-0'/>
+            <div className="bg-radial-cover p-px rounded-[11px] h-full">
+                <div className='bg-main-dark hover:opacity-90 transition-all h-full cursor-default relative p-4 rounded-[11px] text-center'>
+                    <p className='text-4xl text-center flex justify-center mb-3 text-orange'><Icon /></p>
+                    <h3 className='mb-2 text-lg family-violet'>
+                        {title}
+                    </h3>
+                    <p className='leading-loose text-sm '>{text} Tokens</p>
+                    <p className='text-sm'>{percentage}%</p>
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default Tokenomics
