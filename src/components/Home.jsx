@@ -28,8 +28,8 @@ function Home() {
                         <Header />
                         <section className='hero-section flex items-center'>
                             <article className='text-center w-full'>
-                                <h1 data-aos="slide-up" className='text-[2rem] md:text-[55px] font-[900] leading-[150%]'>WELCOME TO <span className='gradient-text'>TURTLE</span> BOT</h1>
-                                <p data-aos="slide-up" className='text-xl md:text-3xl mb-5 font-poppin'><span className='gradient-text'>Empowering</span> Your Trading <span className='gradient-text'>Success</span></p>
+                                <h1 className='text-[2rem] md:text-4xl lg:text-[55px] font-[900] leading-[150%] sm:whitespace-nowrap w-fit mx-auto typewriter'>WELCOME TO <span className='gradient-text'>TURTLE</span> BOT</h1>
+                                <p data-aos="slide-up" className='text-xl md:text-3xl mb-5 sm:whitespace-nowrap font-poppin'><span className='gradient-text'>Empowering</span> Your Trading <span className='gradient-text'>Success</span></p>
                                 <div className='' data-aos="fade-in" data-aos-delay="500">
                                     <a href='' className='inline-block mx-4 mb-4'>
                                         <button className='py-3 px-12 border-2 border-orange font-semibold text-lg hover:bg-orange hover:text-black rounded-lg'>Chart <i className="fa-solid fa-arrow-right-long ml-2"></i></button>
@@ -70,7 +70,7 @@ function Home() {
                         {/* <Counter /> */}
                         <Roadmap />
                         <HowToBuy />
-                        <Faq />
+                        {/* <Faq /> */}
                     </div>
                 </div>
                 <Footer />

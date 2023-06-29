@@ -50,7 +50,7 @@ function Roadmap() {
                         <ul className='list-disc px-4'>
                             <li>Development of Trading bot</li>
                             <li>Website v2</li>
-                            <li>Partnershis with top 5 CEXs </li>
+                            <li>Partnerships with top CEXs </li>
                             <li>Trading contests </li>
                             <li>Bots Upgrade </li>
                         </ul>

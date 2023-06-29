@@ -42,7 +42,7 @@ video{
 
 @layer utilities{
   .nav{
-    @apply mx-10 md:mx-4 md:first:ml-0 my-4 md:my-0 cursor-pointer font-medium hover:text-white/[0.8]
+    @apply mx-10 md:mx-4 md:first:ml-0 my-4 md:my-0 cursor-pointer font-medium hover:text-white/[0.8] hover:bg-orange/10 p-2 rounded
   }
   .btn-outline{
     @apply border px-4 py-2 font-semibold hover:bg-white hover:text-black
@@ -91,4 +91,28 @@ video{
   background-clip: text;
   -webkit-background-clip: text; /* For Safari */
   color: transparent;
+}
+
+.typewriter {
+  overflow: hidden; /* Hide overflowing characters */
+  border-right: 0.15em solid rgba(0, 255, 167, 1); /* Blinking cursor effect */
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(0, 255, 167, 1);
+  }
 }

@@ -18,7 +18,7 @@ function Header() {
                 {/* <span className='text-lg'>Proof of <span class="text-[#f79122]">INU</span></span> */}
             </div>
             <nav className='hidden lg:block'>
-                <ul className='flex md:items-center flex-col md:flex-row'>
+                <ul className='flex md:items-center text-sm flex-col md:flex-row'>
                     <a href="#introduction" className='nav'><li>Introduction</li></a>
                     <a href="#about" className='nav'><li>Why Turtle Bot</li></a>
                     <a href='#tokenomics' className='nav'><li>Tokenomics</li></a>
