@@ -7,7 +7,7 @@ function Tokenomics() {
   return (
         <section className='relative mb-[100px]' id='tokenomics'>
             <div className="bg-[#FDA005] h-[682px] w-[682px] hidden rounded-full absolute blur-[400px] -right-[341px] -top-[100px]"></div>
-            <h2 data-aos="flip-up" className='text-4xl uppercase text-center font-medium mb-8 text-orange'>Tokenomics</h2>
+            <h2 data-aos="flip-up" data-aos-duration="1500" className='text-4xl uppercase text-center font-medium mb-8 text-orange'>Tokenomics</h2>
             <article data-aos="fade-up" data-aos-duration="1200" className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-12'>
                 <Card 
                     Icon={FaTint}
