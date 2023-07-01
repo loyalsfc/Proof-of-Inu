@@ -14,7 +14,7 @@ function Utilities() {
     };
 
     return (
-        <section className='mb-[100px]' id='utilities'>
+        <section className='pb-[100px]' id='utilities'>
             <h2 data-aos="slide-up" className='text-xl px-2 md:text-[3rem] leading-[120%] mb-4 font-bold flex items-center justify-between'>
             <div className='flex justify-between'>
                     <button id='moveleft' onClick={moveRight} className='h-12 w-12 mr-2 rounded-full bg-white/[0.05] text-2xl flex items-center justify-center'><i class="fa-solid fa-caret-left"></i></button>

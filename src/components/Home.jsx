@@ -40,25 +40,27 @@ function Home() {
                     </div>
                 </div>
                 <div className='relative' id='introduction'>
-                    <div className='container mx-auto px-4'>
-                        <div className=' flex items-center pt-10 flex-col md:flex-row justify-between max-w-[1040px] mx-auto mb-[50px] md:mb-[100px]'>
-                            <img src={shell} className="absolute w-full hidden md:block -z-20 left-0 opacity-[0.3]" />
-                            <article className='p-2 md:pr-4 w-full '>
-                                <h2 className='text-3xl sm:text-5xl w-fit p-5 px-10 mx-auto relative family-violet mb-8 lg:mb-0'>
-                                    <p data-aos="zoom-up" className='text-orange'>Introduction</p>
-                                </h2>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Unlock the power of algorithmic trading with Turtle Bots, your trusted partner in the world of automated trading. </p>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>We are a cutting-edge trading bot company that specializes in developing intelligent and robust trading solutions designed to maximize your profitability in the dynamic financial markets.</p>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Take control of your trading destiny and join the revolution in automated trading with Turtle Bots. Our innovative solutions are designed to enhance your trading performance, save you time, and unlock new opportunities in the financial markets. </p>
-                                <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Experience the power of cutting-edge technology and start your journey toward trading success today</p>
-                            </article>
-                            <div data-aos="fade-out" data-aos-delay="500" className='md:w-1/2 shrink-0 hidden'>
-                                <video src={herobg} muted autoPlay loop className='w-full hidden'></video>
-                                <img src={img}/>
+                    <div className='bg-howtobuy bg-cover bg-no-repeat'>
+                        <div className='container mx-auto px-4'>
+                            <div className=' flex items-center pt-10 flex-col md:flex-row justify-between max-w-[1040px] mx-auto mb-[50px] md:mb-[100px]'>
+                                {/* <img src={shell} className="absolute w-full hidden md:block -z-20 left-0 opacity-[0.3]" /> */}
+                                <article className='p-2 md:pr-4 w-full '>
+                                    <h2 className='text-3xl sm:text-5xl w-fit p-5 px-10 mx-auto relative family-violet mb-8 lg:mb-0'>
+                                        <p data-aos="zoom-up" className='text-orange'>Introduction</p>
+                                    </h2>
+                                    <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Unlock the power of algorithmic trading with Turtle Bots, your trusted partner in the world of automated trading. </p>
+                                    <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>We are a cutting-edge trading bot company that specializes in developing intelligent and robust trading solutions designed to maximize your profitability in the dynamic financial markets.</p>
+                                    <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Take control of your trading destiny and join the revolution in automated trading with Turtle Bots. Our innovative solutions are designed to enhance your trading performance, save you time, and unlock new opportunities in the financial markets. </p>
+                                    <p data-aos="slide-up" className='mb-4 text-lg font-poppin'>Experience the power of cutting-edge technology and start your journey toward trading success today</p>
+                                </article>
+                                <div data-aos="fade-out" data-aos-delay="500" className='md:w-1/2 shrink-0 hidden'>
+                                    <video src={herobg} muted autoPlay loop className='w-full hidden'></video>
+                                    <img src={img}/>
+                                </div>
                             </div>
+                            <About />
+                            <Utilities />
                         </div>
-                        <About />
-                        <Utilities />
                     </div>
                         <Tokenomics />
                     <div className='container mx-auto px-4'>
