@@ -1,5 +1,4 @@
 import React from 'react'
-import bgImage from '../assets/bg-image.png'
 import howToBuyImage from '../assets/bg/howtobuy.jpeg'
 
 function HowToBuy() {
