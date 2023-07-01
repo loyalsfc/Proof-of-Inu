@@ -27,18 +27,19 @@
 
 .hero-bg {
   /* height: 100%; */
-  background:linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+  /* background:linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)); */
   background-size:cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 video{
   object-fit: cover;
 }
-
-.hero-section{
-  height: calc(100vh - 150px);
-}
+ @media (min-width: 766px){
+  .hero-section{
+    height: calc(100vh - 150px);
+  }
+ }
 
 @layer utilities{
   .nav{

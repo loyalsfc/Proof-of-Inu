@@ -17,13 +17,13 @@ function Home() {
   return (
         <div>
             <div className='overflow-hidden'>
-                <div className='h-screen hero-bg relative '>
-                    <div className='absolute top-0 left-0 w-full -z-10 h-full overflow-hidden'>
-                        <img src={heroBg} className='h-full w-auto md:w-full md:h-auto' alt="" />
+                <div className='md:h-screen bg-herosection hero-bg relative z-10'>
+                    <div className='absolute bg-main-dark/50 top-0 left-0 w-full -z-10 md:hidden h-full overflow-hidden'>
+                        {/* <img src={heroBg} className='h-full w-auto md:w-full md:h-auto' alt="" /> */}
                     </div>
                     <div className='container mx-auto relative px-4'>
                         <Header />
-                        <section className='hero-section flex items-center'>
+                        <section className='hero-section flex py-12 md:py-0 items-center'>
                             <article className='text-center w-full'>
                                 <h1 className='text-[2rem] md:text-4xl lg:text-[55px] font-[900] leading-[150%] sm:whitespace-nowrap w-fit mx-auto typewriter'>WELCOME TO <span className='gradient-text'>TURTLE</span> BOT</h1>
                                 <p data-aos="slide-up" className='text-xl md:text-3xl mb-5 sm:whitespace-nowrap font-poppin'><span className='gradient-text'>Empowering</span> Your Trading <span className='gradient-text'>Success</span></p>
