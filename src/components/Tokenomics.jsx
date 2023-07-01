@@ -5,7 +5,7 @@ import bg from '../assets/tokenomics.png'
 
 function Tokenomics() {
   return (
-        <section className='relative mb-[100px] bg-tokenomics bg-cover py-16 bg-fixed' id='tokenomics'>
+        <section className='relative mb-[100px] py-16' id='tokenomics'>
             {/* <div className="bg-[#FDA005] h-[682px] w-[682px] hidden rounded-full absolute blur-[400px] -right-[341px] -top-[100px]"></div> */}
             <div className='container mx-auto px-4'>
                 <h2 data-aos="flip-up" data-aos-duration="1500" className='text-4xl uppercase text-center font-medium mb-8 text-orange'>Tokenomics</h2>

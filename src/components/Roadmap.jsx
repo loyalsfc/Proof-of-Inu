@@ -10,7 +10,7 @@ function Roadmap() {
     }
 
     return (
-        <div className='my-[100px] relative overflow-hidden py-8' id='roadmap'>
+        <div className='mt-[100px] pb-[100px] relative overflow-hidden py-8' id='roadmap'>
             <video src={bgImage} className="absolute hidden" autoPlay muted loop></video>
             <h3 data-aos="zoom-in-down" className='text-[3rem] text-orange leading-[120%] mb-4 font-bold text-center'>Roadmap</h3>
             <div data-aos="slide-up" className='flex relative before:content-[""] before:absolute before:top-5 before:-z-10 before:block before:w-full before:h-0.5 before:bg-white/[0.3]'>

@@ -19,7 +19,7 @@ function Home() {
             <div className='overflow-hidden'>
                 <div className='h-screen hero-bg relative '>
                     <div className='absolute top-0 left-0 w-full -z-10 h-full overflow-hidden'>
-                        <img src={heroBg} className='opacity-75 h-full w-auto md:w-full md:h-auto' alt="" />
+                        <img src={heroBg} className='h-full w-auto md:w-full md:h-auto' alt="" />
                     </div>
                     <div className='container mx-auto relative px-4'>
                         <Header />
@@ -62,12 +62,14 @@ function Home() {
                             <Utilities />
                         </div>
                     </div>
+                    <div className='bg-tokenomics bg-cover bg-fixed'>
                         <Tokenomics />
-                    <div className='container mx-auto px-4'>
-                        <Features />
-                        <Roadmap />
+                        <div className='container mx-auto px-4'>
+                            <Features />
+                            <Roadmap />
+                        </div>
                     </div>
-                        <HowToBuy />
+                    <HowToBuy />
                 </div>
                 <Footer />
             </div>

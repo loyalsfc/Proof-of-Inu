@@ -3,7 +3,7 @@ import howToBuyImage from '../assets/bg/howtobuy.jpeg'
 
 function HowToBuy() {
     return (
-        <div className='z-10 pb-[100px] text-center overflow-hidden sm:pt-20 relative px-4' id='how-to-buy'>
+        <div className='z-10 pb-[100px] text-center overflow-hidden pt-10 sm:pt-20 relative px-4' id='how-to-buy'>
             <img src={howToBuyImage} alt="" className='absolute bottom-0 md:left-0 w-full opacity-30 -z-10'/>
             <h3 data-aos="flip-left" data-aos-duration="1500" className='text-3xl sm:text-[3rem] leading-[120%] mb-4 text-orange font-bold text-center'>How To Buy</h3>
             <div className='max-w-[700px] px-2 mx-auto'>
