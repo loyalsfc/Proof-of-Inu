@@ -1,11 +1,12 @@
 import React from 'react'
 import bgImage from '../assets/bg-image.png'
+import howToBuyImage from '../assets/bg/howtobuy.jpeg'
 
 function HowToBuy() {
     return (
-        <div className='z-10 mb-[100px] text-center relative' id='how-to-buy'>
-            <img src={bgImage} alt="" className='absolute top-10 md:left-[20%] opacity-10 scale-[2] -z-10'/>
-            <h3 data-aos="flip-left" data-aos-duration="1500" className='text-[3rem] leading-[120%] mb-4 text-orange font-bold text-center'>How To Buy</h3>
+        <div className='z-10 pb-[100px] text-center overflow-hidden sm:pt-20 relative px-4' id='how-to-buy'>
+            <img src={howToBuyImage} alt="" className='absolute bottom-0 md:left-0 w-full opacity-30 -z-10'/>
+            <h3 data-aos="flip-left" data-aos-duration="1500" className='text-3xl sm:text-[3rem] leading-[120%] mb-4 text-orange font-bold text-center'>How To Buy</h3>
             <div className='max-w-[700px] px-2 mx-auto'>
                 <article data-aos="zoom-out" className='mb-8'>
                     <h3 className='text-2xl font-semibold my-4'>Step One - Buy and Transfer ETH</h3>

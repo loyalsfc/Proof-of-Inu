@@ -11,7 +11,7 @@ import transparency from "../assets/features/transparency.jpg"
 function Features() {
     return (
         <section >
-            <h4 data-aos="zoom-out-up" data-aos-duration="1500" className="text-[3rem] leading-[150%] font-bold text-center text-orange" id="features">Our Features</h4>
+            <h4 data-aos="zoom-out-up" data-aos-duration="1500" className="text-3xl sm:text-[3rem] leading-[150%] font-bold text-center text-orange" id="features">Our Features</h4>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-2'>
                 <FeaturesItem 
                     img={bestsecurity}

@@ -17,7 +17,7 @@ function Header() {
                 <img src={logo} alt="" className='h-12 mr-4' />
                 {/* <span className='text-lg'>Proof of <span class="text-[#f79122]">INU</span></span> */}
             </div>
-            <nav className='hidden lg:block'>
+            <nav className='hidden lg:block text-center'>
                 <ul className='flex md:items-center text-sm flex-col md:flex-row'>
                     <a href="#introduction" className='nav'><li>Introduction</li></a>
                     <a href="#about" className='nav'><li>Why Turtle Bot</li></a>
@@ -37,7 +37,7 @@ function Header() {
                 </ul>
             </nav>
             <a className='mx-10 md:mx-0 hidden lg:block' href=''>
-                <button className='btn-outline'>Buy Now <i className="fa-solid fa-arrow-right"></i></button>
+                <button className='btn-outline slide-button'>Buy Now <i className="fa-solid fa-arrow-right"></i></button>
             </a>
             <i className="fa-solid fa-bars lg:hidden text-xl" onClick={toggleMobileNav}></i>
         </header>

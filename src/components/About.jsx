@@ -4,7 +4,7 @@ import holder from '../assets/hold.png'
 function About() {
   return (
         <article className='max-w-[1040px] mx-auto mb-[100px]' id='about'>
-            <h2 className='text-3xl text-orange sm:text-3xl w-fit p-5 px-10 mx-auto relative family-violet mb-8 lg:mb-0'>
+            <h2 className='text-2xl text-orange sm:text-3xl text-center w-fit p-5 sm:px-10 mx-auto relative family-violet sm:mb-8 lg:mb-0'>
                 <p data-aos-duration="1500" data-aos="zoom-in-up">WHY CHOOSE TURTLE BOT?</p>
             </h2>
             {/* <h2 data-aos="zoom-out" className='text-[3rem] leading-[120%] mb-4 font-bold text-center'>ABOUT</h2> */}
